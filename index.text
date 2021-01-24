@@ -1,0 +1,5 @@
+#!/bin/bash
+yum install httpd -y
+service httpd start
+cd /var/www/html/
+echo 'Welcome Nana' > /var/www/html/index.html
